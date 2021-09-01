@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+header {
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+  background-color: purple;
+  color: #fff;
+  font-size: 20px;
+}
+
+.grid {
+  width: 100%;
+  background: #ecf0f1;
+}
+
+.grid::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid > div {
+  border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 25px;
+  float: left;
+  min-height: 1px;
+}
+
+.textStyle, header, .grid > div {
+  font-family: fantasy;
+  text-align: center;
+}
+
+.comportamiento {
+  font-family: fantasy;
+  text-align: left;
+}
+
+.col-1 {
+  width: calc(100%);
+  float: left;
+}
+
+.col-2 {
+  width: calc(100% / 2);
+  float: left;
+}
+
+.col-3 {
+  width: calc(100% / 3);
+  float: left;
+}
+
+.col-4 {
+  width: calc(100% / 4);
+  float: left;
+}
+
+.col-6 {
+  width: calc(100% / 6);
+  float: left;
+}
+
+.col-8 {
+  width: calc(100% / 8);
+  float: left;
+}
+
+.col-12 {
+  width: calc(100% / 12);
+  float: left;
+}
+/*# sourceMappingURL=estilos.css.map */
